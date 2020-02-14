@@ -1,5 +1,6 @@
 package models;
 
+
 public class Sneaker {
 
     private int id;
@@ -30,7 +31,7 @@ public class Sneaker {
         return inputShoe.name;
     }
 
-    public int getId(Sneaker inputShoe) {
+    public static int getId(Sneaker inputShoe) {
         return inputShoe.id;
     }
     public String getBrand(Sneaker inputShoe) {
